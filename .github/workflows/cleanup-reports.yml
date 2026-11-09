@@ -1,0 +1,35 @@
+name: Cleanup old reports
+
+on:
+  schedule:
+    - cron: '0 19 * * *'      # 每天 UTC 19:00，也就是台灣時間凌晨 3:00
+  workflow_dispatch:          # 允許手動執行（測試用）
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Delete reports older than 10 days
+        run: |
+          cutoff=$(date -u -d '10 days ago' +%Y%m%d)
+          deleted=0
+          shopt -s nullglob
+          for f in reports/*.html; do
+            d=$(basename "$f" | cut -d- -f2)     # 檔名：代號-日期-時間-亂數.html，取第 2 段日期
+            if [[ "$d" =~ ^[0-9]{8}$ ]] && [ "$d" -lt "$cutoff" ]; then
+              git rm -q "$f"
+              deleted=$((deleted+1))
+            fi
+          done
+          echo "deleted=$deleted"
+          if [ "$deleted" -gt 0 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "cleanup: remove $deleted reports older than 10 days"
+            git push
+          fi
