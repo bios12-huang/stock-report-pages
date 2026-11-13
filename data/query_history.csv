@@ -1,2 +1,3 @@
 ﻿query_date,query_time,session,data_date,code,name,close,pct,decision,has_plan,rr_ok,support,entry_lo,entry_hi,max_entry_rr3,stop_loss,target_1,target_2,rr,earn_score,growth_score,t_score
 2026-11-14,07:29,盤中,2026-11-13,2230,泰茂,19.2,-1.79,破底深跌 / 觀望,0,0,21.0,,,,,,,,21,5,0
+2026-11-14,07:29,盤中,2026-11-13,2330,台積電,2350.0,0.43,已收回 / 等回踩打擊區,1,0,2315.0,2315.0,2350.0,2300.0,2280.0,2375.0,2435.0,0.9,68,46,0
