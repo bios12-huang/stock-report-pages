@@ -1,3 +1,4 @@
-﻿query_date,query_time,session,data_date,code,name,close,pct,decision,has_plan,rr_ok,support,entry_lo,entry_hi,max_entry_rr3,stop_loss,target_1,target_2,rr,earn_score,growth_score,t_score,rev_state,has_box,seq,rr_tier,adam_confirmed,pull_gate
-2026-11-15,18:25,盤後,2026-11-13,3665,貿聯-KY,1520.0,0.33,未站回支撐 / 觀望,0,0,1875.0,,,,,,,,39,34,0,expired,1,1,,,
-2026-11-15,18:47,盤後,2026-11-13,2454,聯發科,4120.0,7.01,破底翻失敗 / 觀望,0,0,3895.0,,,,,,,,49,33,0,failed,1,2,,,
+﻿query_date,query_time,session,data_date,code,name,close,pct,decision,has_plan,rr_ok,support,entry_lo,entry_hi,max_entry_rr3,stop_loss,target_1,target_2,rr,earn_score,growth_score,t_score,rev_state,has_box,seq,rr_tier,adam_confirmed,pull_gate,60m_rev_state,60m_has_plan,60m_rr_ok,60m_support,60m_entry_lo,60m_entry_hi,60m_stop_loss,60m_target_1,60m_rr
+2026-11-15,18:25,盤後,2026-11-13,3665,貿聯-KY,1520.0,0.33,未站回支撐 / 觀望,0,0,1875.0,,,,,,,,39,34,0,expired,1,1,,,,,,,,,,,,
+2026-11-15,18:47,盤後,2026-11-13,2454,聯發科,4120.0,7.01,破底翻失敗 / 觀望,0,0,3895.0,,,,,,,,49,33,0,failed,1,2,,,,,,,,,,,,
+2026-11-15,22:02,盤後,2026-11-13,3017,奇鋐,3040.0,9.55,未站回支撐 / 觀望,0,0,3130.0,,,,,,,,54,39,0,expired,1,1,,,,expired,0,0,3090.0,,,,,
