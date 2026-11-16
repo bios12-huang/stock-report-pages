@@ -1,1 +1,2 @@
-
+﻿query_date,query_time,session,data_date,code,name,close,pct,vol_ratio,dd_top_pct,grade,earn_score,growth_score,confirm_score,inst_score,t_score,pattern_type,pattern_state,has_plan,rr_ok,rr,support,entry_lo,entry_hi,max_entry_rr3,stop_loss,target_1,target_2,60m_pattern_type,60m_pattern_state,60m_has_plan,60m_rr_ok,60m_rr,60m_support,60m_entry_lo,60m_entry_hi,60m_max_entry_rr3,60m_stop_loss,60m_target_1,60m_target_2
+2026-11-16,23:38,盤後,2026-11-16,2330,台積電,2215.0,-5.74,1.93,-14.48,B,65,45,20,3,0,bottom,pullback,1,1,3.3,2220.0,2220.0,2255.0,2215.0,2185.0,2315.0,2770.0,bottom,breaking,1,1,1.9,2255.0,2255.0,2290.0,2255.0,2230.0,2345.0,2435.0
