@@ -14,14 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Delete reports older than 10 days
+      - name: Delete reports older than 30 days
         run: |
-          cutoff=$(date -u -d '10 days ago' +%Y%m%d)
+          cutoff=$(date -u -d '30 days ago' +%Y%m%d)
           deleted=0
           shopt -s nullglob
           for f in reports/*.html; do
-            d=$(basename "$f" | cut -d- -f2)     # 檔名：代號-日期-時間-亂數.html，取第 2 段日期
-            if [[ "$d" =~ ^[0-9]{8}$ ]] && [ "$d" -lt "$cutoff" ]; then
+            b=$(basename "$f")
+            d=""
+            if [[ "$b" =~ ^[^-]+-([0-9]{8})- ]]; then
+              d="${BASH_REMATCH[1]}"          # 舊格式：代號-日期-時間-亂數.html
+            elif [[ "$b" =~ ^([0-9]{8})_ ]]; then
+              d="${BASH_REMATCH[1]}"          # 盤後掃描：日期_代號.html
+            fi
+            if [ -n "$d" ] && [ "$d" -lt "$cutoff" ]; then
               git rm -q "$f"
               deleted=$((deleted+1))
             fi
@@ -30,6 +36,6 @@ jobs:
           if [ "$deleted" -gt 0 ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "cleanup: remove $deleted reports older than 10 days"
+            git commit -m "cleanup: remove $deleted reports older than 30 days"
             git push
           fi
