@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-17",
+  "t_score": 0,
+  "items": [
+    {
+      "code": "1802",
+      "name": "台玻",
+      "tier": "S",
+      "rr": 10.8,
+      "score": 78,
+      "tech_score": 25.5,
+      "stock_quality": 86.7,
+      "url": "https://bios12-huang.github.io/stock-report-pages/d/20261117/1802.html"
+    },
+    {
+      "code": "3374",
+      "name": "精材",
+      "tier": "A",
+      "rr": 8.3,
+      "score": 62,
+      "tech_score": 27.5,
+      "stock_quality": 68.9,
+      "url": "https://bios12-huang.github.io/stock-report-pages/d/20261117/3374.html"
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "tier": "A",
+      "rr": 7.8,
+      "score": 60,
+      "tech_score": 23.5,
+      "stock_quality": 66.7,
+      "url": "https://bios12-huang.github.io/stock-report-pages/d/20261117/3661.html"
+    },
+    {
+      "code": "6446",
+      "name": "藥華藥",
+      "tier": "A",
+      "rr": 3.2,
+      "score": 68,
+      "tech_score": 21.2,
+      "stock_quality": 75.6,
+      "url": "https://bios12-huang.github.io/stock-report-pages/d/20261117/6446.html"
+    },
+    {
+      "code": "3105",
+      "name": "穩懋",
+      "tier": "A",
+      "rr": 13.5,
+      "score": 59,
+      "tech_score": 22.8,
+      "stock_quality": 65.6,
+      "url": "https://bios12-huang.github.io/stock-report-pages/d/20261117/3105.html"
+    }
+  ]
+}
