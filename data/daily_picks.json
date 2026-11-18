@@ -3,34 +3,34 @@
   "t_score": 0,
   "items": [
     {
-      "code": "3661",
-      "name": "世芯-KY",
+      "code": "3006",
+      "name": "晶豪科",
       "tier": "S",
-      "rr": 7.8,
-      "score": 64,
-      "tech_score": 24.8,
-      "stock_quality": 71.1,
-      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261118_3661.html"
+      "rr": 13.8,
+      "score": 65,
+      "tech_score": 23.0,
+      "stock_quality": 72.2,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261117_3006.html"
     },
     {
-      "code": "3374",
-      "name": "精材",
-      "tier": "A",
-      "rr": 7.4,
-      "score": 61,
-      "tech_score": 25.5,
-      "stock_quality": 67.8,
-      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261118_3374.html"
+      "code": "6770",
+      "name": "力積電",
+      "tier": "S",
+      "rr": 7.7,
+      "score": 58,
+      "tech_score": 23.0,
+      "stock_quality": 64.4,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261117_6770.html"
     },
     {
-      "code": "3105",
-      "name": "穩懋",
+      "code": "3035",
+      "name": "智原",
       "tier": "A",
-      "rr": 13.5,
-      "score": 62,
-      "tech_score": 21.8,
-      "stock_quality": 68.9,
-      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261118_3105.html"
+      "rr": 6.4,
+      "score": 58,
+      "tech_score": 23.0,
+      "stock_quality": 64.4,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261117_3035.html"
     }
   ]
 }
