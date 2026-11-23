@@ -1,5 +1,56 @@
 {
   "date": "2026-11-23",
   "t_score": 0,
-  "items": []
+  "items": [
+    {
+      "code": "6672",
+      "name": "騰輝電子-KY",
+      "tier": "S",
+      "rr": 23.6,
+      "score": 64,
+      "tech_score": 26.0,
+      "stock_quality": 71.1,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261123_6672.html"
+    },
+    {
+      "code": "2395",
+      "name": "研華",
+      "tier": "S",
+      "rr": 8.9,
+      "score": 62,
+      "tech_score": 26.0,
+      "stock_quality": 68.9,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261123_2395.html"
+    },
+    {
+      "code": "6446",
+      "name": "藥華藥",
+      "tier": "S",
+      "rr": 3.2,
+      "score": 66,
+      "tech_score": 23.0,
+      "stock_quality": 73.3,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261123_6446.html"
+    },
+    {
+      "code": "1326",
+      "name": "台化",
+      "tier": "A",
+      "rr": 9.4,
+      "score": 56,
+      "tech_score": 25.0,
+      "stock_quality": 62.2,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261123_1326.html"
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "tier": "A",
+      "rr": 5.0,
+      "score": 56,
+      "tech_score": 25.0,
+      "stock_quality": 62.2,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261123_2454.html"
+    }
+  ]
 }
