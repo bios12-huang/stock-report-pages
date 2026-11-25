@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "t_score": 0,
   "items": [
     {
-      "code": "3260",
-      "name": "威剛",
+      "code": "1590",
+      "name": "亞德客-KY",
       "tier": "S",
-      "rr": 12.2,
-      "score": 62,
-      "tech_score": 25.0,
-      "stock_quality": 68.9,
-      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261124_3260.html"
+      "rr": 5.0,
+      "score": 60,
+      "tech_score": 24.0,
+      "stock_quality": 66.7,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261125_1590.html"
     }
   ]
 }
