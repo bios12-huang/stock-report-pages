@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "t_score": 0,
   "items": [
     {
-      "code": "1590",
-      "name": "亞德客-KY",
+      "code": "2376",
+      "name": "技嘉",
       "tier": "S",
-      "rr": 5.0,
-      "score": 60,
+      "rr": 6.4,
+      "score": 58,
       "tech_score": 24.0,
-      "stock_quality": 66.7,
-      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261125_1590.html"
+      "stock_quality": 64.4,
+      "url": "https://bios12-huang.github.io/stock-report-pages/reports/20261126_2376.html"
     }
   ]
 }
